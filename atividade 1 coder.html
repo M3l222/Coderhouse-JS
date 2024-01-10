@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Algoritmo Simples JS - Coderhouse Practice</title>
+</head>
+<body>
+</body>
+</html>
+<script>
+let numero1 = prompt("Digite um número para soma");
+let numero2 = prompt("Digite outro número para soma");
+
+let numeroInt1 = parseInt(numero1);
+let numeroInt2 = parseInt(numero2);
+
+if (numero1 === "") {
+    alert("Preenchimento obrigatório para o primeiro número!");
+} else if (numero2 === "") {
+    alert("Preenchimento obrigatório para o segundo número!");
+} else {
+    let soma = numeroInt1 + numeroInt2;
+    console.log("A soma de " + numeroInt1 + " e " + numeroInt2 + " é: " + soma + "!");
+}
+
+</script>
